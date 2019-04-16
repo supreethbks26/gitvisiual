@@ -15,7 +15,7 @@ namespace ConsoleApp1
             Console.WriteLine(p.add(10, 5));
         }
 
-        public int add(int x, int y)
+        public int add(var x, var y)
         {
             return x + y;
         }
