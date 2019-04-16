@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!!");
+
+            Program p = new Program();
+            Console.WriteLine(p.add(10, 5));
+        }
+
+        public int add(int x, int y)
+        {
+            return x + y;
         }
     }
 }
